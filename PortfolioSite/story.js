@@ -211,3 +211,10 @@ function mouseClicked() {
     }
   }
 }
+
+window.addEventListener('resize', () => {
+  slider.position(
+    75 + document.querySelector('#defaultCanvas0').offsetLeft,
+    2 + document.querySelector('#defaultCanvas0').offsetTop
+  );
+});
