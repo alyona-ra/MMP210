@@ -6,8 +6,13 @@ canvas {
   display: block;
 }
 
+#defaultCanvas0 {
+    margin: 0 auto;
+}
+
 .script{
     margin-top: 50px;
+    
     
 }
 
